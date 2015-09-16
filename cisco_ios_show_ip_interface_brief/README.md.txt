@@ -11,6 +11,12 @@
       "method": "NVRAM", 
       "protocol": "up", 
       "status": "up"
+    }, 
+    "FastEthernet2/0": {
+      "ip address": "unassigned", 
+      "method": "NVRAM", 
+      "protocol": "down", 
+      "status": "administratively down"
     }
   }
 }
