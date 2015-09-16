@@ -1,0 +1,5 @@
+#show ip interface brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            172.16.2.2      YES NVRAM  up                    up
+FastEthernet1/0            172.16.4.1      YES NVRAM  up                    up
+FastEthernet2/0            unassigned      YES NVRAM  administratively down down
