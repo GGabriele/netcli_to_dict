@@ -18,8 +18,8 @@ with open('show_ip_interface_brief.txt', 'r') as f:
                 interface['status'] = splitted_line[4] + ' ' + splitted_line[5]
                 interface['protocol'] = splitted_line[6]
             else:
-                interface['protocol'] = splitted_line[5]
-                interface_info[splitted_line[0]] = interface
-                node_diagram["interfaces"] = interface_info
+                    interface['protocol'] = splitted_line[5]
+            interface_info[splitted_line[0]] = interface
+            node_diagram["interfaces"] = interface_info
 
 print(json.dumps(node_diagram, sort_keys=True, indent=2))
